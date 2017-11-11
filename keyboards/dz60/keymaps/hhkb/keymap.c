@@ -1,8 +1,8 @@
 #include "dz60.h"
 
 #define BASE 0
-#define HHKB 1
-#define GAME 2
+#define GAME 1
+#define HHKB 2
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
@@ -32,7 +32,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   
 
 
-/* Game Level: Gaming Layer
+    /* Game Level: Gaming Layer
      |-------+---+---+---+---+---+---+---+---+---+---+-------+-----+-------+---|
      | Esc   | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 0 | -     | =   | \     | ` |
      |-------+---+---+---+---+---+---+---+---+---+---+-------+-----+-------+---|
